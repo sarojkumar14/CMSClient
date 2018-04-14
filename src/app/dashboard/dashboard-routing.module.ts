@@ -6,18 +6,10 @@ import { DashboardComponent } from './dashboard.component';
 const routes: Routes = [
   {
     path: '',
+    component: DashboardComponent,
     data: {
       title: 'DashboardModule'
-    },
-    children: [
-      {
-        path: 'dashboard',
-        component: DashboardComponent,
-        data: {
-          title: 'DashboardModule'
-        }
-      }
-    ]
+    }
   }
 ];
 
